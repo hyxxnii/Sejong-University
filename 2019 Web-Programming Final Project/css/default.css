@@ -1,0 +1,272 @@
+	html, body
+	{
+		height: 100%;
+	}
+
+	body
+	{
+		margin: 0px;
+		padding: 0px;
+		background: #EFEFEF url(images/bg01.png) repeat;
+		font-family: 'Open Sans', sans-serif;
+		font-size: 10pt;
+		font-weight: 400;
+		color: #8d8d8d;
+	}
+
+
+	h1, h2, h3
+	{
+		margin: 0;
+		padding: 0;
+		color: #333;
+	}
+
+	p, ol, ul
+	{
+		margin-top: 0;
+	}
+
+	ol, ul
+	{
+		padding: 0;
+		list-style: none;
+	}
+
+	p
+	{
+		line-height: 180%;
+	}
+
+	strong
+	{
+		color: #525252;
+	}
+
+	a
+	{
+		color: #525252;
+	}
+
+	a:hover
+	{
+		text-decoration: none;
+	}
+
+	.container
+	{
+		margin: 0px auto;
+		width: 1200px;
+	}
+
+	.button
+	{
+		display: inline-block;
+		padding: 1em 3em 1em 0em;
+		letter-spacing: 0.10em;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-weight: 800;
+		font-size: 0.90em;
+		color: #333;
+	}
+
+	.button:before
+	{
+		display: inline-block;
+		background: #8aa2fc;
+		margin-right: 1em;
+		padding: 8px;
+		text-align: center;
+		color: #FFF;
+	}
+
+	#header
+	{
+		background: #d7aee9;
+		border-top: 1px solid #d7aee9;
+	}
+
+	#logo
+	{
+		padding: 4em 0em;
+		font-family: 'Lobster', cursive;
+	}
+
+	#logo h1
+	{
+		text-align: center;
+		font-weight: 900;
+		font-size: 3.5em;
+	}
+
+	#logo h1 a
+	{
+	}
+
+	#logo span
+	{
+		padding: 0em 0em 0em 0.5em;
+	}
+
+	#logo h1:before
+	{
+
+	}
+
+	#logo a
+	{
+		color: #d7aee9;
+	}
+
+	#menu ul
+	{
+		margin-left: 280px;
+		padding: 20px 0px 20px 0px;
+		list-style: none;
+		line-height: normal;
+	}
+
+	#menu li
+	{
+		display: inline-block;
+	}
+
+	#menu a
+	{
+		display: block;
+		padding: 1em 2em;
+		letter-spacing: 1px;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-size: 1em;
+		font-weight: 700;
+		color: #FFF;
+	}
+
+	#menu .current_page_item a
+	{
+		background: #e5b9fa;
+		color: #FFF;
+	}
+
+	#menu a:hover
+	{
+		background: #e5b9fa;
+		text-decoration: none;
+		color: #FFF;
+	}
+
+	#banner
+	{
+		margin-bottom: 3em;
+	}
+
+	#page-wrapper
+	{
+		padding: 4em 0em 6em 0em;
+		background: #FFF;
+		border-top: 1px solid #d7aee9;
+	}
+
+	#page
+	{
+		overflow: hidden;
+		padding-top: 6em;
+		border-top: 1px solid #E5E5E5;
+		color: #717171;
+	}
+
+	#page .title
+	{
+		margin-bottom: 2em;
+	}
+
+	#page .title h2
+	{
+		font-size: 2em;
+		font-weight: 800;
+		color: #333;
+	}
+
+	#content
+	{
+		float: left;
+		width: 588px;
+	}
+
+	#sidebar
+	{
+		float: right;
+		width: 588px;
+	}
+
+	#footer-wrapper
+	{
+		padding: 6em 0em 6em 0em;
+		background: #f4f4f4;
+		border-bottom: 1px solid #EDEDED;
+		border-top: 1px solid #EDEDED;
+	}
+
+	#footer {
+		overflow: hidden;
+		color: #666666;
+	}
+
+	#footer h2
+	{
+		letter-spacing: 0.10em;
+		padding-bottom: 1em;
+		font-size: 1.3em;
+		font-weight: 700;
+		color: #333;
+	}
+
+	#footer #fbox1 {
+		float: left;
+		width: 282px;
+		margin-right: 24px;
+	}
+
+	#footer #fbox2 {
+		float: left;
+		width: 282px;
+		margin-right: 24px;
+	}
+
+	#footer #fbox3 {
+		float: left;
+		width: 282px;
+	}
+
+	#footer #fbox4 {
+		float: right;
+		width: 282px;
+	}
+
+	#copyright
+	{
+		padding: 6em 0em;
+		font-size: 0.85em;
+		letter-spacing: 0.10em;
+		text-align: center;
+		color: #6A6A6A;
+	}
+
+	#copyright a
+	{
+		color: #747474;
+	}
+
+	#authForm{
+		margin-left : 1050px;
+	}
+
+	#img_span{
+		margin-left:30px;
+	}
+
+	.copy_{
+		font-size:30px;
+	}
